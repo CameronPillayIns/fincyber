@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-color: #bdc9d0;
+  }
+  
+.hero{
+
+  background: linear-gradient(to top, #174a68, #162c4b); 
+ 
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 550px;
+  /* clip-path: polygon(0 0, 100% 0, 100% 78%, 0 100%);
+ */
+
+
+}
+/* 
+clip-path: polygon(0 100%, 100% 100%, 100% 50%, 0 70%); */
+
+.brands{
+  
+  background: #08324e;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  justify-content: middle;
+  /* clip-path: polygon(0 22%, 100% 0, 100% 100%, 0 100%);
+ */
+}
+
+.skew{
+  background: linear-gradient(to bottom, #174a68, #162c4b); 
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  justify-content: middle;
+  /* clip-path: polygon(52% 6%, 80% 9%, 100% 7%, 100% 87%, 70% 85%, 36% 91%, 0 86%, 0 13%);
+ */
+}
+.partners{
+  background: linear-gradient(to bottom, #174a68, #162c4b); 
+  bottom: 0;
+  left: 0;
+  width: 100%;
+ 
+  justify-content: middle;
+ 
+}
+
+.footer{
+  background: linear-gradient(to top, #174a68, #162c4b); 
+  width: 100%;
+}
+
+.about{
+ 
+  background: linear-gradient(to top, #174a68, #162c4b); 
+}
+
+.aboutImg{
+  clip-path: polygon(100% 0, 0 0, 0 100%, 78% 100%);
+}
+
+.aboutcard{
+  clip-path: polygon(100% 0, 5% 0, 0 100%, 95% 100%);
+}
+
+
+.tech{
+
+    background: linear-gradient(to top, #174a68, #162c4b); 
+  
+}
+
+
+.foating-cont{
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  bottom: 0;
+  right: 0;
+  margin: 35px 25px;
+
+}
+
+.foating-cont:hover{
+  height: 300px;
+}
+
+
+.contactBtn {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}

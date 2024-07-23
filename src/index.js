@@ -1,0 +1,11 @@
+export * from "./About"
+export * from "./Home"
+export * from "./Articles"
+export * from "./Contact"
+export * from "./Services"
+export * from "./Faqs"
+export * from "./Login"
+export * from "./PAIA"
+export * from "./CookiePolicy"
+export * from "./Terms"
+
